@@ -39,7 +39,7 @@ function AddProduct() {
 
       // Store data with FormData as object
       const formData = new FormData();
-      formData.set("image", form.image[0], form.image[0].title);
+      formData.set("image", form?.image[0], form?.image[0].title);
       formData.set("title", form.title);
       formData.set("price", form.price);
 
